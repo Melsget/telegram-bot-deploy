@@ -6,7 +6,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("✅ Bot is running on Render!")
+    await update.message.reply_text("✅Life with Jesus")
 
 # Help command
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
